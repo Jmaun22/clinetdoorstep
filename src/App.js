@@ -21,7 +21,7 @@ import OrderHistory from './pages/OrderHistory';
 import Customer from './pages/Customer';
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://backenddoorstep-app.herokuapp.com',
 });
 
 const authLink = setContext((_, { headers }) => {
